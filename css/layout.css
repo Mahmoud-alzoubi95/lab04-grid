@@ -1,206 +1,87 @@
-@media (min-width: 480px) and (max-width: 767px) {
-    p {
-        margin-left: 82px;
-    }
-    .a {
-        grid-area: one;
-    }
-    .b {
-        grid-area: two;
-    }
-    .c {
-        grid-area: three;
-    }
-    .d {
-        grid-area: four;
-    }
-    .e {
-        grid-area: five;
-    }
-    .f {
-        grid-area: six;
-    }
-    .g {
-        grid-area: seven;
-    }
-    .h {
-        grid-area: eight;
-    }
-    .a, .b, .c, .d {
-        
-        /* width: calc(100% * 480/767); */
-        /* width: 480px; */
-        height: 75px;
+.a{
+    background-color: rgb(182, 136, 50);
+}
+.b{
+    background-color: rgb(168, 71, 36);
+}
+.c{
+    background-color: rgb(28, 170, 135);
+}
+.d{
+    background-color: rgb(49, 170, 95);
+}
+.e{
+    background-color: rgb(60, 45, 145);
+}
+.f{
+    background-color: rgb(143, 37, 125);
+}
+.g{
+    background-color: rgb(148, 44, 52);
+}
+.h{
+    background-color: rgb(134, 155, 43);
+}
+.i{
+    background-color: rgb(42, 64, 134);
+}
+
+@media screen and ( min-width: 480px ){
+    .a{
+        background-color: rgb(117, 37, 37);
     }
     .b{
-        /* width: calc(100% * 480/767); */
-        height: 150px; 
+        background-color: rgb(165, 73, 73);
     }
-     .c, .d {
-        
-        /* width: calc(100% * 480/767); */
-        height: 125px;
+    .c{
+        background-color: rgb(23, 59, 114);
     }
-    .e, .f, .g, .h {
-        /* width: calc(100% * 240/767); */
-       /* width: 50%; */
-
-        height: 250px;
-      
+    .d{
+        background-color: rgb(173, 175, 41);
     }
-    .i {
-        
-        /* width: calc(100% * 480/767); */
-        width: 100%;
-        height: 80px;
-        grid-area: nine;
+    .e{
+        background-color: rgb(182, 55, 150);
     }
-   
-    section {
-        /* width: 100%; */
-        display: grid;
-        /* grid-template-columns: 1fr 50px 1fr; */
-        grid-template-areas: 
-        'one one'
-        'two two'
-        'three three'
-        'four four'
-        'five six'
-        'seven eight'
-        'nine nine';
-        grid-template-columns:calc(100% * 240/767) calc(100% * 240/767);
-        padding:10px;
-        width: 100%;
+    .f{
+        background-color: rgb(163, 45, 45);
+    }
+    .g{
+        background-color: rgb(170, 168, 48);
+    }
+    .h{
+        background-color: rgb(47, 84, 141);
+    }
+    .i{
+        background-color: rgb(53, 170, 62);
     }
 }
 
-@media (min-width:767px) and (max-width:960px) {
-    p {
-        margin-left: calc(100% * 82/960);
-        color: #4e4e4e;
+@media screen and ( min-width: 768px ){
+    .a{
+        background-color: rgb(165, 83, 45);
     }
-    .a {
-        width: 100%;
-        height: 100px;
+    .b{
+        background-color: rgb(119, 104, 38);
     }
-    .b {
-        width: calc(100% * 200/960);
-        width: 100%;
-        height: 600px;
+    .c{
+        background-color: rgb(88, 158, 45);
     }
-    .c, .d {
-        width: 100%;
-        height: 200px;
+    .d{
+        background-color: rgb(41, 141, 91);
     }
-    .e, .f, .g, .h {
-        /* width: calc(100% * 190/960); */
-        /* width: 100%; */
-        height: 250px;
+    .e{
+        background-color: rgb(47, 147, 177);
     }
-    .i {
-        /* width: calc(100% * 760/960); */
-        width: 100%;
-        /* width:760px; */
-        height: 150px;
+    .f{
+        background-color: rgb(100, 51, 165);
     }
-    .a {
-        grid-area: one;
+    .g{
+        background-color: rgb(128, 47, 145);
     }
-    .b {
-        grid-area: two;
-    }
-    .c {
-        grid-area: three;
-    }
-    .d {
-        grid-area: four;
-    }
-    .e {
-        grid-area: five;
-    }
-    .f {
-        grid-area: six;
-    }
-    .g {
-        grid-area: seven;
-    }
-    .h {
-        grid-area: eight;
+    .h{
+        background-color: rgb(150, 53, 118);
     }
     .i{
-        /* display: grid; */
-        grid-area: nine;
-    }
-   
-    section{
-        display: grid;
-        grid-template-areas:'one one one one one''two three three four four''two five six seven eight''two nine nine nine nine' ;
-        grid-template-columns: calc(100% * 200/960) calc(100% * 190/960) calc(100% * 190/960) calc(100% * 190/960) calc(100% * 190/960);
-    }
-}
-
-
-@media (min-width:767px) and (max-width:1024px) {
-    p {
-        margin-left: calc(100% * 82/960);
-        color: #4e4e4e;
-    }
-    .a {
-        width: 100%;
-        height: 100px;
-    }
-    .b {
-        width: calc(100% * 200/960);
-        width: 100%;
-        height: 600px;
-    }
-    .c, .d {
-        width: 100%;
-        height: 200px;
-    }
-    .e, .f, .g, .h {
-        /* width: calc(100% * 190/960); */
-        /* width: 100%; */
-        height: 250px;
-    }
-    .i {
-        /* width: calc(100% * 760/960); */
-        /* width: 100%; */
-        /* width:760px; */
-        height: 150px;
-    }
-    .a {
-        grid-area: one;
-    }
-    .b {
-        grid-area: two;
-    }
-    .c {
-        grid-area: three;
-    }
-    .d {
-        grid-area: four;
-    }
-    .e {
-        grid-area: five;
-    }
-    .f {
-        grid-area: six;
-    }
-    .g {
-        grid-area: seven;
-    }
-    .h {
-        grid-area: eight;
-    }
-    .i{
-        /* display: grid; */
-        grid-area: nine;
-    }
-   
-    section{
-        display: grid;
-        grid-template-areas:'one one one one one''two three three four four''two five six seven eight''two nine nine nine nine' ;
-        grid-template-columns: calc(100% * 200/960) calc(100% * 190/960) calc(100% * 190/960) calc(100% * 190/960) calc(100% * 190/960);
+        background-color: rgb(155, 53, 53);
     }
 }
